@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: antiquewhite !important;
+}
+.box{
+  width: 50%;
+  margin: auto;
+}
+
+.user{
+  border: 1px solid lightblue;
+  padding: 10px;
+  background-color: azure;
+  margin: 10px;
+}
+.user h1{
+  font-size: 1.3rem;
+}
+
+.users{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.letter{
+  text-align: center;
+}
+
+.chart{
+  height: 60vh !important;
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.footer{
+  background-color:rgb(40, 187, 187);
+  width: 100%;
+  text-align: center;
+}
